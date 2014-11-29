@@ -55,7 +55,7 @@ Assign path to template folder, default is `./templates`.
 
 ## Example
 
-See `example/` for usage.
+See `example/`.
 
 ## License
 

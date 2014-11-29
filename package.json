@@ -1,0 +1,28 @@
+{
+  "name": "metalsmith-reactjs",
+  "version": "1.0.0",
+  "description": "Use reactjs as template engine for metalsmith",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RobinThrift/metalsmith-tutorial.git"
+  },
+  "author": "Jeremy Lu <jeremy@pubulous.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RobinThrift/metalsmith-tutorial/issues"
+  },
+  "homepage": "https://github.com/RobinThrift/metalsmith-tutorial",
+  "devDependencies": {
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "extend": "^2.0.0",
+    "node-jsx": "^0.12.4",
+    "react": "^0.12.1"
+  },
+  "readme": "See github page"
+}

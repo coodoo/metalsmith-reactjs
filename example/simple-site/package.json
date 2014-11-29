@@ -1,7 +1,7 @@
 {
   "name": "metalsmith-reactjs",
-  "version": "1.0.0",
-  "description": "Use reactjs as template engine for metalsmith",
+  "version": "0.0.1",
+  "description": "ff",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,19 +10,28 @@
     "type": "git",
     "url": "https://github.com/coodoo/metalsmith-reactjs.git"
   },
-  "author": "Jeremy Lu <jeremy@pubulous.com>",
+  "author": "Robin Thrift <thrift.d.robin@googlemail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/coodoo/metalsmith-reactjs/issues"
   },
   "homepage": "https://github.com/coodoo/metalsmith-reactjs",
   "devDependencies": {
+    "metalsmith": "^1.0.0",
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-collections": "^0.4.0",
+    "metalsmith-permalinks": "^0.3.0",
+    "metalsmith-coffee": "^0.0.1",
+    "metalsmith-sass": "^0.1.1"
   },
   "dependencies": {
     "async": "^0.9.0",
+    "express": "^4.10.4",
     "extend": "^2.0.0",
+    "metalsmith-coffee": "0.0.2",
+    "metalsmith-sass": "^0.5.0",
     "node-jsx": "^0.12.4",
     "react": "^0.12.1"
   },
-  "readme": "See github page"
+  "readme": "rrrr"
 }

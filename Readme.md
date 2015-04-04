@@ -3,7 +3,7 @@
 
   A **[metalsmith](https://github.com/segmentio/metalsmith)** plugin to render files using [React.js](http://facebook.github.io/react/) as the template engine, hence allowing you to use familiar `jsx` syntax to compose pages in a component manner instead of partials.
 
-  In short, it's a total replacement for traditional templating system like `Handlebars` or `Jade`.
+  In short, it's a replacement for traditional templating system like `Handlebars` or `Jade`.
 
 
 ## Installation

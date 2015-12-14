@@ -2,6 +2,7 @@ var debug = require('debug')('metalsmith-reactjs');
 var each = require('async').each;
 var extend = require('extend');
 var React = require('react');
+var ReactDOM = require('react-dom/server');
 require('node-jsx').install();
 
 module.exports = plugin;
@@ -104,9 +105,9 @@ function render( templateDir, templateName, dataPack, isStatic, cb ){
 
     // 將 react 元件轉成 str
     if( isStatic ){
-        str = React.renderToStaticMarkup( temp );
+        str = ReactDOM.renderToStaticMarkup( temp );
     }else{
-        str = React.renderToString( temp );
+        str = ReactDOM.renderToString( temp );
     }
 
     cb( null, str );

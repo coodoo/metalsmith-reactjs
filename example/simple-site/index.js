@@ -3,9 +3,8 @@ var markdown    = require('metalsmith-markdown');
 var collections = require('metalsmith-collections');
 var permalinks  = require('metalsmith-permalinks');
 var coffee      = require('metalsmith-coffee');
-var sass        = require('metalsmith-sass');
 var debug       = require('debug')('jx-app');
-var template    = require('metalsmith-reactjs');
+var template    = require('../../index.js');
 
 // 重要：示範了如何自定義一個 plugin
 // 這個 plugin 功能就是單純檢查每個 post md 內的 yaml 是否有標上 template: blog.hbt 字段
@@ -71,11 +70,6 @@ Metalsmith(__dirname)
     .use( template({
         staticPage: true, 
         templateDir: __dirname + '/templates/' 
-    }))
-
-    // 處理 sass
-    .use(sass({
-        outputStyle: 'compressed'
     }))
 
     // 處理 coffee

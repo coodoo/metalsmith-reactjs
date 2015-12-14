@@ -1,6 +1,6 @@
 {
   "name": "metalsmith-reactjs",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Use reactjs as template engine for metalsmith",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,8 @@
     "debug": "^2.1.2",
     "extend": "^2.0.0",
     "node-jsx": "^0.12.4",
-    "react": "^0.12.1"
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3"
   },
   "readme": "See github page"
 }
